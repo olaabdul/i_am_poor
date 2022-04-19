@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 void main() {
   runApp( MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.blue[300],
       appBar: AppBar(
         title: Text("I am Poor"),
-        backgroundColor: Colors.grey[500],
-      )
+        backgroundColor: Colors.blue[700],
+      ),
       body: Center(
       child: Image(
-        image: AssetImage('images.'),
+        image: AssetImage('images/poor.png'),
     ),
       ),
     ),
